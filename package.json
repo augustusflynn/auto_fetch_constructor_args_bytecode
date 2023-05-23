@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.1.9",
+    "cbor-x": "^1.5.3",
     "crypto-js": "^4.1.1",
     "ethers": "^5.7.0",
     "evm": "^0.2.0",
