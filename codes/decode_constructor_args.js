@@ -133,7 +133,7 @@ function decodeData(types_, value_) {
     let types = types_.split(",");
     let value = value_;
 
-    if (value.indexOf("0x") !== 0)
+    if (!value.startsWith("0x"))
       value = "0x" + value;
 
     Log(types);
